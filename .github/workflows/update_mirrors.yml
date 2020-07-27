@@ -1,10 +1,7 @@
 name: Update mirrors
 
 on:
-  schedule:
-    - cron:  '0 0 1 * *' # Monthly
-  watch:
-    types: [started]
+  push:
 jobs:
 
   update_mirrors:
