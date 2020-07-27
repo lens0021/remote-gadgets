@@ -3,11 +3,15 @@ name: Update mirrors
 on:
   schedule:
     - cron:  '0 0 1 * *' # Monthly
+  watch:
+    types: [started]
 jobs:
 
   update_mirrors:
 
     runs-on: ubuntu-latest
+
+    if: github.actor == github.event.repository.owner.login
 
     steps:
 
