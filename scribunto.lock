@@ -1,5 +1,47 @@
 {
   "modules": {
+    "@en/Sidebar": {
+      "pageid": 38866323,
+      "revid": 960592528,
+      "title": "Module:Sidebar",
+      "dependencies": [
+        "@en/No globals",
+        "@en/Navbar",
+        "@en/Arguments"
+      ]
+    },
+    "@en/Arguments": {
+      "pageid": 41298065,
+      "revid": 948472485,
+      "title": "Module:Arguments"
+    },
+    "@en/Navbar": {
+      "pageid": 38827227,
+      "revid": 948473991,
+      "title": "Module:Navbar",
+      "dependencies": [
+        "@en/Arguments",
+        "@en/TableTools"
+      ]
+    },
+    "@en/TableTools": {
+      "pageid": 41371028,
+      "revid": 958399831,
+      "title": "Module:TableTools",
+      "dependencies": [
+        "@en/Exponential search"
+      ]
+    },
+    "@en/Exponential search": {
+      "pageid": 45500622,
+      "revid": 920258706,
+      "title": "Module:Exponential search"
+    },
+    "@en/No globals": {
+      "pageid": 42567026,
+      "revid": 948473889,
+      "title": "Module:No globals"
+    },
     "@ko/Sidebar": {
       "pageid": 945357,
       "revid": 24929734,
@@ -222,33 +264,6 @@
       "dependencies": [
         "@en/Navbar"
       ]
-    },
-    "@en/Navbar": {
-      "pageid": 38827227,
-      "revid": 948473991,
-      "title": "Module:Navbar",
-      "dependencies": [
-        "@en/Arguments",
-        "@en/TableTools"
-      ]
-    },
-    "@en/TableTools": {
-      "pageid": 41371028,
-      "revid": 958399831,
-      "title": "Module:TableTools",
-      "dependencies": [
-        "@en/Exponential search"
-      ]
-    },
-    "@en/Exponential search": {
-      "pageid": 45500622,
-      "revid": 920258706,
-      "title": "Module:Exponential search"
-    },
-    "@en/Arguments": {
-      "pageid": 41298065,
-      "revid": 948472485,
-      "title": "Module:Arguments"
     },
     "@en/Hatnote": {
       "pageid": 42498502,
