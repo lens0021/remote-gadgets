@@ -55,12 +55,12 @@
     },
     "@ko/Navbox": {
       "pageid": 930488,
-      "revid": 25306127,
+      "revid": 27556220,
       "title": "\ubaa8\ub4c8:Navbox",
       "dependencies": [
         "@ko/Color contrast",
-        "@ko/Arguments",
-        "@ko/Navbar"
+        "@ko/Navbar",
+        "@ko/Arguments"
       ]
     },
     "@ko/Color contrast": {
@@ -217,8 +217,11 @@
     },
     "@en/String": {
       "pageid": 38569505,
-      "revid": 924313232,
-      "title": "Module:String"
+      "revid": 970815276,
+      "title": "Module:String",
+      "dependencies": [
+        "@en/String"
+      ]
     },
     "@en/Infobox": {
       "pageid": 38808424,
@@ -257,7 +260,7 @@
     },
     "@en/Hatnote": {
       "pageid": 42498502,
-      "revid": 967664662,
+      "revid": 970298780,
       "title": "Module:Hatnote",
       "dependencies": [
         "@en/Yesno",
